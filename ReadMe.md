@@ -6,7 +6,7 @@
 👉 https://public.tableau.com/app/profile/varun.vaddi/viz/Group8_17446843706920/P1
 
 <p align="center">
-  <img src="[https://drive.google.com/uc?export=view&id=1AySYHjv0p5XCOwIipc7V5dKnurYeerSk](https://drive.google.com/file/d/1AySYHjv0p5XCOWIIpc7V5dKnurYEerSk/view?usp=sharing)" width="800"/>
+  <img src="P1.png" width="800"/>
 </p>
 
 ---
