@@ -1,42 +1,118 @@
-Description:
-This project utilizes guest review data from Disneyland parks to uncover insights into visitor experiences, sentiment trends, and country-wise feedback distribution. The dashboard was created using Tableau and relies on a cleaned and filtered dataset for accuracy and clarity.
+# 🎢 Disneyland Reviews Analytics Dashboard
 
+📊 An interactive Tableau dashboard analyzing **42K+ Disneyland guest reviews** to uncover sentiment trends, visitor behavior, and global feedback patterns.
+
+🔗 **Live Dashboard:**  
+👉 https://public.tableau.com/app/profile/varun.vaddi/viz/Group8_17446843706920/P1
+
+<p align="center">
+  <img src="https://drive.google.com/file/d/1AySYHjv0p5XCOWIIpc7V5dKnurYEerSk/view?usp=sharing" width="800"/>
+</p>
+
+---
+
+## 💡 Why This Project Matters
+
+Theme parks depend heavily on customer experience and feedback.
+
+This project transforms raw review data into:
+- 📈 Actionable insights for operations  
+- 🌍 Geographic visitor trends  
+- 😊 Sentiment-driven decision-making  
+
+👉 Helping stakeholders understand:
+**What guests love, what they complain about, and where improvements are needed**
+
+---
+
+## ⚡ Key Insights
+
+- ⭐ Rating distribution across Disneyland parks (California, Paris, Hong Kong)  
+- 🌍 Country-wise and continent-level visitor analysis  
+- 📉 Temporal trends in sentiment and ratings  
+- 🧠 NLP-based sentiment scoring on review text  
+- 📊 Interactive filtering for deep exploration  
+
+---
+
+## 🏗️ Dashboard Features
+
+- 🎛️ Dynamic filters (branch, country, rating)  
+- 🗺️ Geographic visualization using country-to-continent mapping  
+- 📈 Time-series analysis of reviews  
+- 📊 Sentiment vs rating comparison  
+- 🔍 Drill-down exploration via hover and click  
+
+---
+
+## 📂 Project Structure
 
 📦 DisneylandReviewProject
- ┣ 📄 Group8.twbx
- ┣ 📄 DisneylandReviews_Complete_Filtered_ExactMatch.csv
- ┣ 📄 Country_Continent_Mapping_Completed.csv
 
-🔍 How to Use:
-1. Opening the Dashboard:
-Open Group8_Disneyland_Dashboard.twbx in Tableau Desktop or Tableau Public.
+┣ 📄 Group8.twbx
 
-Ensure that the CSV files are in the same folder as the .twbx file so Tableau can automatically link to the data sources.
+┣ 📄 DisneylandReviews_Complete_Filtered_ExactMatch.csv
 
-If you encounter a data connection prompt, manually reconnect to DisneylandReviews_Complete_Filtered_ExactMatch.csv.
+┣ 📄 Country_Continent_Mapping_Completed.csv
 
-2. Understanding the Data:
-DisneylandReviews_Complete_Filtered_ExactMatch.csv: This is the primary dataset, containing cleaned and exact-match reviews with fields like Review Text, Rating, Reviewer Country, Branch, and Submission Date.
 
-However the final DataSet was created by mering the Extracted features we got from the two IPYNB files that is Pre Processing 1 and Pre Processing 2. The Sentiment Scores were extracted from the IPYNB named Pre Processing 3
+---
 
-Country_Continent_Mapping_Completed.csv: Used for mapping each reviewer’s country to a continent for geo-analysis layers in the dashboard.
+## 🧠 Data Processing Pipeline
 
-3. Navigating the Dashboard:
-Use filters to explore data by branch (e.g., California, Paris, Hong Kong), country, or rating.
+1. 🧹 **Data Cleaning & Filtering**
+   - Removed noise and irrelevant entries  
+   - Ensured consistency using exact-match filtering  
 
-View sentiment trends, review distribution, and rating averages.
+2. 🧪 **Feature Engineering**
+   - Extracted structured features from raw review text  
+   - Combined outputs from preprocessing workflows  
 
-Interactive charts and maps enable deeper insights by clicking or hovering over visual elements.
+3. 🤖 **Sentiment Analysis**
+   - Generated sentiment scores using NLP techniques  
 
-4. Customization and Extension:
-You can modify visualizations or add new charts within Tableau.
+4. 🔗 **Data Integration**
+   - Merged review dataset with country-continent mapping  
 
-Replace datasets with newer versions (maintaining the same column structure) for updated analysis.
+---
 
-Export charts as PDFs or images for reports and presentations.
+## ▶️ How to Use
 
-🛠 Requirements:
-Tableau Desktop or Tableau Public (recommended: latest version)
+### 1. Open the Dashboard
+- Open `Group8.twbx` in **Tableau Desktop** or **Tableau Public**
+- Ensure CSV files are in the same directory
 
-Optional: Excel, Google Sheets, or a text editor to view/edit .csv files
+### 2. If Data Doesn’t Load
+- Reconnect manually to:
+  - `DisneylandReviews_Complete_Filtered_ExactMatch.csv`
+
+---
+
+## 🛠 Requirements
+
+- Tableau Desktop or Tableau Public (latest version recommended)  
+- Optional: Excel / Google Sheets to view/edit CSV files  
+
+---
+
+## 🔄 Customization
+
+- Replace dataset with updated data (same schema required)  
+- Modify visualizations directly in Tableau  
+- Export dashboards as PDF or images for reporting  
+
+---
+
+## 🚀 Impact
+
+- 📊 Converts unstructured review data into meaningful insights  
+- 🧠 Enables data-driven decision-making  
+- 🌍 Highlights global customer experience patterns  
+
+---
+
+## 👤 Author
+
+**Shreyas Mysore Narayana**  
+
+Data Scientist | BI & Analytics | AI Enthusiast
